@@ -1,0 +1,56 @@
+      .container {
+        flex-wrap: wrap;
+        display: flex;
+      }
+
+      .pad {
+        align-items: center;
+        border-radius: 4px;
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 200px;
+        justify-content: center;
+        margin: 20px;
+        text-decoration: none;
+        width: 200px;
+      }
+
+      .stop {
+        align-items: center;
+        border-radius: 4px;
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+        justify-content: center;
+        margin: 20px;
+        text-decoration: none;
+      }
+
+      /* PAD Colours */
+
+      .mimosa {
+        background: linear-gradient(45deg, #d53369 0%, #daae51 100%);
+      }
+
+      .aqua {
+        background: linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%);
+      }
+
+      .mellow {
+        background: linear-gradient(45deg, #f8ff00 0%, #3ad59f 100%);
+      }
+
+      .cool {
+        background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+      }
+
+      .salmon {
+        background-image: linear-gradient(45deg, #feb692 10%, #ea5455 100%);
+      }
+
+      .burningOrange {
+        background: linear-gradient(to right, #ff416c, #ff4b2b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      }
