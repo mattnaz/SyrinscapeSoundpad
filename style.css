@@ -1,22 +1,30 @@
-      body { background: rgb(58, 62, 75)}
+      body { 
+        background: rgb(58, 62, 75);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+
+      a {
+        color: white;
+      }
       
       .container {
+        margin: 20px;
         display: flex;
         flex-wrap: wrap;
         font-smoothing: antialiased !important;
       }
 
       .pad {
+        padding: 10px;
+        margin: 10px auto;
         text-align: center;
         align-items: center;
         border-radius: 4px;
         display: flex;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
         height: 200px;
         justify-content: center;
-        margin: 10px;
         text-decoration: none;
         width: 200px;
         box-shadow: inset 0 0 20px rgba(0,0,0,0.2), 0 10px 15px rgba(0,0,0,0.2);
@@ -46,7 +54,7 @@
         font-family: Arial, Helvetica, sans-serif;
         height: 100px;
         justify-content: center;
-        margin: 10px;
+        margin: 10px 20px;
         text-decoration: none;
         box-shadow: inset 0 0 20px rgba(0,0,0,0.2), 0 10px 15px rgba(0,0,0,0.2);
         border: 1px solid rgba(255,255,255, 0.1)
@@ -72,11 +80,8 @@
       }
 
       .salmon {
-        /* background-image: radial-gradient( #feb692 10%, #ea5455 100%); */
         background-image: radial-gradient( #feb692, #ea5455);
-
       }
-
 
       .burningOrange {
         background: radial-gradient( #e9705b, #ff416c); 
